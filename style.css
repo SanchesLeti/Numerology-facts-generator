@@ -11,7 +11,6 @@ body {
   margin: 350px auto;
   padding: 30px 10px 40px 50px;
   max-width: 1025px;
-
   align-items: center;
 }
 .title {
@@ -24,9 +23,8 @@ body {
 .subTitle {
   text-align: center;
   color: aliceblue;
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 100;
-  font-style: italic;
   margin-bottom: 20px;
 }
 form {
@@ -73,7 +71,8 @@ a {
 }
 footer {
   text-align: center;
-  color: black;
+  color: white;
   font-weight: 600;
-  font-size: 19px;
+  font-size: 22px;
+  letter-spacing: 2px;
 }
