@@ -8,7 +8,7 @@ body {
   color: white;
 }
 .container {
-  margin: 350px auto;
+  margin: 113px auto;
   padding: 30px 10px 40px 50px;
   max-width: 1025px;
   align-items: center;
@@ -23,7 +23,7 @@ body {
 .subTitle {
   text-align: center;
   color: aliceblue;
-  font-size: 48px;
+  font-size: 41px;
   font-weight: 100;
   margin-bottom: 20px;
 }
@@ -36,7 +36,7 @@ form {
 .barInput {
   padding: 34px 24px;
   border: 1px solid hsl(240, 75%, 57%);
-  width: 80%;
+  width: 50%;
   font-size: 20px;
   border-radius: 50px;
   line-height: 20px;
@@ -44,7 +44,7 @@ form {
   font-style: italic;
 }
 .submitBox {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   margin-left: 10px;
   background: rgb(74, 113, 255);
@@ -55,10 +55,11 @@ form {
   padding: 27px 24px;
 }
 .answer {
-  background-color: ;
-  color: wheat;
+  color: rgb(166, 161, 252);
   font-size: 40px;
-  padding: 20px;
+  font-style: italic;
+  letter-spacing: 20px;
+  padding: 3px;
   line-height: 63px;
   border-left: 3px solid white;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
@@ -75,4 +76,30 @@ footer {
   font-weight: 600;
   font-size: 22px;
   letter-spacing: 2px;
+}
+@media (max-width: 1000px) {
+  .title {
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+  .subTitle {
+    font-size: 35px;
+  }
+  form {
+    padding: 10px;
+  }
+  .barInput {
+    padding: 20px 30px;
+    width: 50%;
+    font-size: 16px;
+  }
+  .submitBox {
+    font-size: 25px;
+    padding: 15px 20px;
+  }
+  .answer {
+    color: rgb(166, 161, 252);
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
 }
