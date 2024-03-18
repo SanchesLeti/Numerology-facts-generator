@@ -11,16 +11,23 @@
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,559&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Numerology Facts Generator</title>
   </head>
   <body>
     <div class="container">
       <h1 class="title">Welcome to AI Numerology</h1>
       <h2 class="subTitle">
-        Based on your date of birth discover fun facts about you
+        Based on your date of birth discover your life path number
       </h2>
       <div class="row">
-        <div class="col-12">
+        <div class="col-md-12">
           <form class="typeBox" id="num-generator-form">
             <input
               class="barInput"
@@ -29,13 +36,14 @@
               autofocus
               required
               autocomplete="off"
+              id="userAnswer"
             />
             <input type="submit" class="submitBox" value="Submit" />
           </form>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 mt-4 p-5 answer" id="numerology-answer"></div>
+        <div class="col-md-12 mt-4 p-5 answer" id="numerology-answer"></div>
       </div>
       <footer class="mt-5 p-5">
         This AI project was coded by

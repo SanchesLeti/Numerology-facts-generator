@@ -55,12 +55,16 @@ form {
   padding: 27px 24px;
 }
 .answer {
+  font-family: "Ysabeau", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 559;
+  text-align: left;
   color: rgb(166, 161, 252);
   font-size: 40px;
   font-style: italic;
-  letter-spacing: 20px;
+  letter-spacing: 10px;
   padding: 3px;
-  line-height: 63px;
+  line-height: 50px;
   border-left: 3px solid white;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   margin-left: 30px;
@@ -77,13 +81,13 @@ footer {
   font-size: 22px;
   letter-spacing: 2px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
   .title {
-    font-size: 60px;
+    font-size: 45px;
     margin-bottom: 30px;
   }
   .subTitle {
-    font-size: 35px;
+    font-size: 25px;
   }
   form {
     padding: 10px;
@@ -98,8 +102,9 @@ footer {
     padding: 15px 20px;
   }
   .answer {
+    font-style: italic;
     color: rgb(166, 161, 252);
     font-size: 30px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
   }
 }
