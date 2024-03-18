@@ -2,7 +2,7 @@ function displayAnswer(response) {
   new Typewriter("#numerology-answer", {
     strings: response.data.answer,
     autoStart: true,
-    delay: 1,
+    delay: 5,
     cursor: "",
   });
 }
@@ -16,7 +16,11 @@ function generateanswer(event) {
     "You are a numerology AI expert who summs the numbers of a birthday and gives a life path number explanition in basic html form and separete each line with <br>. Please make sure to provide direct, simple and friendly answers and use emojis. Please use the user instructions";
   let prompt = `User instructions: Generate a random numerology fact using the date of birth given by ${userInstructions.value}`;
 
-  let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+    let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+    let answertElement = document.querySelector("#numerology-answer");  
+    answertElement.classList.remove("hidden");
+    answertElement.innerHTML = ` Genrerating life path number for ${userInstructions.value} ...`;
 
   console.log("Please wait...");
   console.log(`Prompt: ${prompt}`);

@@ -81,6 +81,9 @@ footer {
   font-size: 22px;
   letter-spacing: 2px;
 }
+.hidden {
+  display: none;
+}
 @media (max-width: 1500px) {
   .title {
     font-size: 45px;
