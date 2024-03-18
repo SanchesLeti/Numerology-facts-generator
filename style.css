@@ -8,10 +8,10 @@ body {
   color: white;
 }
 .container {
-  margin: 120px auto;
+  margin: 350px auto;
   padding: 30px 10px 40px 50px;
   max-width: 1025px;
- border: solid 2px white;
+  border: solid 2px white;
 }
 .title {
   text-align: center;
@@ -45,4 +45,7 @@ a {
 }
 footer {
   text-align: center;
+  color: black;
+  font-weight: 600;
+  font-size: 19px;
 }
