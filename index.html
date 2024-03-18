@@ -10,6 +10,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Numerology Facts Generator</title>
   </head>
   <body>
@@ -20,7 +21,7 @@
       </h2>
       <div class="row">
         <div class="col-12">
-          <form class="typeBox">
+          <form class="typeBox" id="num-generator-form">
             <input
               class="barInput"
               type="text"
@@ -34,13 +35,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 mt-4 p-5 answer">
-          The answer will be here jdjdjjcjncj hshhsbbxh hxbhxjx hxbxh jxbxh c
-          jcj jcjc jcncj jcjcjjcjcj jckc jcjcjc jckck ccnkkck cjkvk ckcnjvjkc
-          jvkkv jvkvkn jvkc vkvnvk mvkvnkkkvkvkkvnn jvnk
-        </div>
+        <div class="col-12 mt-4 p-5 answer" id="numerology-answer"></div>
       </div>
-      <footer class="mt-5 p-5" >
+      <footer class="mt-5 p-5">
         This AI project was coded by
         <a href="https://leticiasanches.netlify.app/" target="_blank"
           >Leticia Sanches</a
