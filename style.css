@@ -1,4 +1,48 @@
 body {
-    background-color: rgb(169, 233, 252);
-    text-align: center;
+  background: radial-gradient(
+    circle at 85.4% 50.8%,
+    rgb(14, 72, 222) 0%,
+    rgb(3, 22, 65) 74.2%
+  );
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+.container {
+  margin: 120px auto;
+  padding: 30px 10px 40px 50px;
+  max-width: 1025px;
+ border: solid 2px white;
+}
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 80px;
+  font-weight: 800;
+  color: aliceblue;
+}
+.subTitle {
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.typeBox {
+  margin-top: 20px;
+  text-align: center;
+}
+.barInput {
+  padding-right: 50px;
+  margin: 5px;
+}
+.answer {
+  color: wheat;
+  text-align: center;
+}
+a {
+  color: aqua;
+}
+footer {
+  text-align: center;
 }
